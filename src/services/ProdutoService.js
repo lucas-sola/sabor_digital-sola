@@ -15,6 +15,7 @@ class ProdutoService {
             total: produtosFormatados.length
         };
     }
+    
 
     async buscarProdutoPorId(id) {
         if (!id || isNaN(id)) {
